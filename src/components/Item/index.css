@@ -1,0 +1,14 @@
+.game-item {
+  list-style: none;
+}
+
+.game-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.img {
+  width: 140px;
+}

@@ -1,0 +1,106 @@
+.app-container {
+  background-color: #223a5f;
+  color: white;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.playing-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header-container {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  font-weight: 500;
+}
+.score-container {
+  background-color: white;
+  color: black;
+  padding: 2px;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.score {
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.play-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 400px;
+  align-self: center;
+  margin-top: 20px;
+}
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 400px;
+  align-self: center;
+  margin-top: 20px;
+}
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+.play-again-button {
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  width: 700px;
+}
+@media screen and (max-width: 768px) {
+  .popup-container {
+    padding: 10px;
+    width: 350px;
+  }
+}
+.trigger-button {
+  display: block;
+  margin-left: auto;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+.close-button {
+  border: none;
+  background-color: transparent;
+  align-self: flex-end;
+  cursor: pointer;
+  outline: none;
+}
+.close-icon {
+  font-size: 30px;
+}
+.rules-img {
+  width: 80%;
+  align-self: center;
+}
